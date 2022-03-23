@@ -1,0 +1,52 @@
+Train size: 0.8
+Validation size: 0.1
+Number of models: 5
+Batch size: 32
+Learning rate: 0.0001
+Dropout: 0.1
+Epochs: 100
+Patience: 30
+Time per model (seconds): 0
+=============================================
+regression
+------------------------------------------
+dish_washer 
+mse: 7225.73
+rmse: 85.0
+mae: 13.56
+sae: 0.47
+nde: 0.7285
+energy_precision: 0.4334
+energy_recall: 0.6374
+accuracy: 0.6032
+f1: 0.0797
+precision: 0.0415
+recall: 0.9976
+----------------------------------------------
+fridge 
+mse: 1645.44
+rmse: 40.56
+mae: 31.13
+sae: -0.18
+nde: 0.8856
+energy_precision: 0.6908
+energy_recall: 0.5666
+accuracy: 0.7238
+f1: 0.6467
+precision: 0.8156
+recall: 0.5357
+----------------------------------------------
+washing_machine 
+mse: 8199.74
+rmse: 90.55
+mae: 21.14
+sae: 0.34
+nde: 0.5864
+energy_precision: 0.5356
+energy_recall: 0.72
+accuracy: 0.9407
+f1: 0.6364
+precision: 0.4697
+recall: 0.9865
+----------------------------------------------
+==================================================
